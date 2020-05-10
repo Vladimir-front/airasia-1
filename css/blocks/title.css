@@ -1,0 +1,39 @@
+.title {
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 25px;
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 48px;
+}
+
+.section-title_icon_fire::after {
+  content: "";
+  background: url("../../images/icons/flame.png") center center no-repeat;
+  vertical-align: middle;
+  width: 33px;
+  height: 28px;
+}
+
+.section-title_color_dark {
+  color: #000000;
+  margin-bottom: 26px;
+}
+
+.title-inner {
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.service-block__title {
+  margin-bottom: 25px;
+  margin-top: 15px;
+}

@@ -1,0 +1,18 @@
+.contact {
+  font-style: normal;
+  text-align: right;
+}
+
+.contact__info {
+  font-size: 11px;
+}
+
+.contact__phone {
+  font-size: 26px;
+  margin-bottom: 4px;
+}
+
+.contact__sсhedule {
+  font-size: 13px;
+  text-decoration: underline;
+}

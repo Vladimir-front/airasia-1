@@ -1,0 +1,36 @@
+.about-company {
+  margin-bottom: 46px;
+}
+
+.about-article {
+  display: flex;
+}
+
+.about-article:before {
+  content: "";
+  position: absolute;
+  vertical-align: top;
+  width: 488px;
+  height: 502px;
+  background: url("../../images/decor/gates.jpg") center center / cover no-repeat;
+  border-radius: 6px;
+}
+
+.about-content {
+  background: url("../../images/decor/mountains.jpg") center center / cover no-repeat;
+  position: relative;
+  padding: 66px 98px;
+  display: inline-block;
+  vertical-align: top;
+  width: 780px;
+  min-height: 450px;
+  margin-left: auto;
+  margin-top: 110px;
+  border-radius: 6px;
+}
+
+.about__description {
+  color: #000000;
+  margin-bottom: 40px;
+  line-height: 28px;
+}

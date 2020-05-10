@@ -1,0 +1,31 @@
+.social-media {
+  margin-right: 74px;
+}
+
+.social-media__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-media__item {
+  vertical-align: middle;
+  margin-right: 12px;
+}
+
+.social-media__item:last-child {
+  margin-right: 0px;
+}
+
+.social-media__link {
+  display: block;
+  text-decoration: none;
+  width: 34px;
+  height: 34px;
+  opacity: 40%;
+  background: center center no-repeat;
+}
+
+.social-media__link:hover {
+  opacity: 90%;
+}

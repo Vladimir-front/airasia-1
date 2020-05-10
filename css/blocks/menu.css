@@ -1,0 +1,27 @@
+.menu__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu__item {
+  vertical-align: middle;
+  margin-right: 53px;
+}
+
+.menu__item_color_red .menu__link {
+  color: #f5170e;
+}
+
+.menu__item:last-child {
+  margin-right: 0px;
+}
+
+.menu__link {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.menu__link:hover {
+  color: #f5170e;
+}

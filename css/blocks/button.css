@@ -1,0 +1,40 @@
+.button {
+  background: #f5170e;
+  border-radius: 26px;
+  padding: 17px 39px;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  display: flex;
+  width: 11.8em;
+}
+
+.button:hover {
+  background: #da0100;
+  color: #ffffff;
+}
+
+.button_type_secondary {
+  color: #f5170e;
+  background: #ffffff;
+  border: 1px solid #f5170e;
+  padding: 16px 29px;
+  display: flex;
+  width: 9.7em;
+}
+
+.button_type_secondary:hover {
+  background: #f5170e;
+}
+
+.button_type_third {
+  color: #f5170e;
+  background: #ffffff;
+  border: 1px solid #f5170e;
+}
+
+.button_type_third:hover {
+  background: #f5170e;
+}
+

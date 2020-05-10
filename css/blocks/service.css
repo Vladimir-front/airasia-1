@@ -1,0 +1,42 @@
+.service {
+  background: #ffffff;
+  color: #303030;
+  padding-top: 100px;
+}
+
+.service-block {
+  display: flex;
+  min-height: 330px;
+}
+
+.service__item {
+  padding-bottom: 55px;
+}
+
+.service-block__image {
+  width: 40%;
+  margin-right: 5%;
+}
+
+.service__image {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 6px;
+  height: 325px;
+}
+
+.service-block__wrapper {
+  flex: 1;
+}
+
+.service__text {
+  line-height: 1.7;
+  margin-bottom: 32px;
+}
+
+.paginator-block {
+  padding-top: 20px;
+  padding-bottom: 90px;
+}
+
