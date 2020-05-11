@@ -52,3 +52,8 @@
   background: #f5170e;
   color: #ffffff;
 }
+
+.paginator-block {
+  padding-top: 15px;
+  padding-bottom: 90px;
+}

@@ -1,0 +1,41 @@
+.partner {
+  background: #f4f5f5;
+  padding-top: 83px;
+  padding-bottom: 68px;
+}
+
+.partner__logo {
+  display: flex;
+  min-height: 280px; 
+}
+
+.partner__list {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap; 
+}
+
+.partner__item {
+  margin-left: 20px;
+}
+
+.partner__item:nth-child(4n + 1) {
+  margin-left: 0px;
+}
+
+
+.partner__link {
+  display: flex;
+  width: 270px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.partner__link:hover {
+  filter: grayscale(100%);
+}
+

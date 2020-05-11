@@ -37,3 +37,10 @@
   margin-bottom: 25px;
   margin-top: 15px;
 }
+
+.partner__title {
+  font-size: 48px;
+  color: #202123;
+  margin-bottom: 35px;
+  font-weight: bold;
+}
