@@ -6,7 +6,6 @@
 
 .service-block {
   display: flex;
-  min-height: 330px;
 }
 
 .service__item {
@@ -16,14 +15,16 @@
 .service-block__image {
   width: 40%;
   margin-right: 5%;
+  max-height: 325px;
+  border-radius: 6px;
+  overflow: hidden;
 }
 
 .service__image {
   display: block;
   object-fit: cover;
   width: 100%;
-  border-radius: 6px;
-  height: 325px;
+  height: 100%;  
 }
 
 .service-block__wrapper {

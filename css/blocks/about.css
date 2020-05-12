@@ -20,6 +20,8 @@
   background: url("../../images/decor/mountains.jpg") center center / cover no-repeat;
   position: relative;
   padding: 66px 98px;
+  background-position: top right;
+  background-size: 140%;
   display: inline-block;
   vertical-align: top;
   width: 780px;

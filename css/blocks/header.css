@@ -1,9 +1,9 @@
-.header-container__content {
+.header__content {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-top: 22px;
-  margin-bottom: 33px;
+  padding-bottom: 33px;
 }
 
 .header__col {
@@ -15,8 +15,8 @@
   justify-content: flex-end;
 }
 
-.header-container__content-inner {
-  margin-bottom: 0px;
+.header__content-inner {
+  padding-bottom: 0px;
 }
 
 .header-inner {

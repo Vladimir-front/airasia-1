@@ -1,7 +1,7 @@
 .partner {
   background: #f4f5f5;
   padding-top: 83px;
-  padding-bottom: 68px;
+  padding-bottom: 38px;
 }
 
 .partner__logo {
@@ -11,28 +11,34 @@
 
 .partner__list {
   display: flex;
-  justify-content: space-between;
-  align-content: space-around;
-  align-items: center;
   flex-direction: row;
   flex-wrap: wrap; 
 }
 
 .partner__item {
-  margin-left: 20px;
+  display: flex;
+  height: 100px;
+  width: 285px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;  
 }
 
 .partner__item:nth-child(4n + 1) {
-  margin-left: 0px;
+  text-align: left;
 }
 
+.partner__item:nth-child(4n) {
+  text-align: right;
+}
 
-.partner__link {
-  display: flex;
-  width: 270px;
-  height: 100px;
-  align-items: center;
-  justify-content: center;
+.partner__link {  
+  display: inline-block;
+  width: 100%;
+}
+
+.partner__pic {
+  display: inline-block;
 }
 
 .partner__link:hover {
