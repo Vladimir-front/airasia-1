@@ -26,3 +26,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+.animation-wrapper {
+  background: url("../images/bg/screen.jpg") center top no-repeat;
+}

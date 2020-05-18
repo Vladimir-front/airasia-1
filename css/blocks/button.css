@@ -6,8 +6,7 @@
   font-weight: bold;
   text-transform: uppercase;
   font-size: 14px;
-  display: flex;
-  width: 11.8em;
+  display: inline-flex;
 }
 
 .button:hover {
@@ -37,5 +36,14 @@
 
 .button_type_third:hover {
   background: #f5170e;
+}
+
+.button_type_fourth {
+  display: inline-block;
+  padding: 16px 55px;
+}
+
+.button_type_fourth:hover {
+  box-shadow: 0 0 25px 0 #da0100;
 }
 

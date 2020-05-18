@@ -1,0 +1,32 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url("../../images/bg/middleline.jpg");
+  min-height: 360px;
+}
+
+.container__banner {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.banner__text {
+  max-width: 60%;
+  
+}
+
+.banner__title {
+  display: inline-flex;
+  padding-right: 19px;
+  line-height: 1.2em;
+}
+
+
+.container__banner::after {
+  content: "";
+  width: 500px;
+  height: 360px;
+  background: url("../../images/decor/couple.png") right 30% bottom no-repeat;
+}

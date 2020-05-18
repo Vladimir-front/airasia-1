@@ -23,6 +23,6 @@
   min-height: 412px;
   display: flex;
   flex-direction: column;
-  padding-bottom: 28px;
-  background: #00131d url(../../images/bg/headline.jpg) right 50% top no-repeat;
+  padding-bottom: 28px; 
+  background: #00131d url(../../images/bg/headline.jpg) right 50% top no-repeat; 
 }

@@ -39,8 +39,17 @@
 }
 
 .partner__title {
+  margin-bottom: 65px;  
+}
+
+.title-inner__dark {
   font-size: 48px;
   color: #202123;
-  margin-bottom: 65px;
   font-weight: bold;
+}
+
+.title-inner__white {
+  font-size: 48px;
+  font-weight: bold;
+  color: #ffffff;
 }
