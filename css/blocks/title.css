@@ -53,3 +53,13 @@
   font-weight: bold;
   color: #ffffff;
 }
+
+.review__content-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.form-title {
+  margin-bottom: 45px; 
+}

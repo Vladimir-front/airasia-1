@@ -1,0 +1,12 @@
+.tag {
+  display: inline-flex;
+  font-size: 13px;
+  color:#303030;
+  padding: 8px 16px;
+  border-radius: 50px;
+  background: #e7e7e7;
+}
+
+.tag_color_blue {
+  background: #b9eae4;
+}

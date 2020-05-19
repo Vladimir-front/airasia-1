@@ -1,8 +1,39 @@
 .animation-wrapper {
   display: flex;
   justify-content: center;
+  align-items: center;
+  background: url("../../images/bg/screen.jpg") center bottom / cover no-repeat;
 }
 
+.animation-block {
+  opacity: 0;
+  animation: zoom 1s ease-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(1.2);
+  }
+
+  20% {
+    transform: scale(.7);
+  }
+
+  40% {
+    transform: scale(1.2);
+  }
+
+  60% {
+    transform: scale(.9);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1)
+  }
+}
+  
 .animation {
   display: flex;
   position: relative;

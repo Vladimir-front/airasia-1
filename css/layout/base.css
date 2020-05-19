@@ -55,3 +55,9 @@ img {
   max-height: 100%;
   max-width: 100%;
 }
+
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
