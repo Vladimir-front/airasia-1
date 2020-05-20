@@ -12,6 +12,7 @@
 .button:hover {
   background: #da0100;
   color: #ffffff;
+  transition: 0.7s;
 }
 
 .button_type_secondary {
@@ -26,6 +27,7 @@
 
 .button_type_secondary:hover {
   background: #f5170e;
+  transition: 1s;
 }
 
 .button_type_third {
@@ -36,6 +38,7 @@
 
 .button_type_third:hover {
   background: #f5170e;
+  transition: 0.8s;
 }
 
 .button_type_fourth {
@@ -45,6 +48,7 @@
 
 .button_type_fourth:hover {
   box-shadow: 0 0 25px 0 #da0100;
+  transition: 0.9s;
 }
 
 .button_type_fifth {
@@ -54,5 +58,6 @@
 
 .button_type_fifth:hover {
   background: #8e8e8e;
+  transition: 2s;
 }
 

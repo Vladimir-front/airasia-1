@@ -12,7 +12,56 @@
   margin-bottom: 4px;
 }
 
-.contact__sсhedule {
+.contact__sсhedule {  
+  width: 153px;
+  position: relative;
+  margin-left: 39px;
+}
+
+.contact__link {
   font-size: 13px;
   text-decoration: underline;
+}
+
+.contact__list {
+  font-size: 13px;
+  color: #1e1f20;
+  line-height: 1.5em;
+}
+
+.contact__drop {
+  padding: 15px;
+  width: 153px;
+  height: 77px;
+  background-color: #ffffff;
+  margin: 0px;
+  position: absolute;
+  padding-top: 15px;
+  border-radius: 4px;
+  top: 23px;
+  display: none;
+}
+
+.contact__drop::after {
+  content: "";
+  display: flex;
+  border: 10px solid transparent;
+  border-bottom: 10px solid #ffffff;
+  position: absolute;
+  bottom: 100%;
+  right: 50px;
+}
+
+.contact__drop::before {
+  content: "";
+  display: block;
+  height: 100px;
+  left: 0;
+  right: 0;
+  top: -100px;
+  position: absolute;
+}
+
+.contact__sсhedule:hover .contact__drop {
+  display: block;
 }

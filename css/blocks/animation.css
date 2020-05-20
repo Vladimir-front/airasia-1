@@ -7,7 +7,7 @@
 
 .animation-block {
   opacity: 0;
-  animation: zoom 1s ease-out;
+  animation: zoom 1.5s ease-out;
   animation-fill-mode: forwards;
 }
 

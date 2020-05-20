@@ -43,6 +43,7 @@
 .review__name:hover {
   color: #2e77a4;
   text-decoration: underline;
+  transition: 0.7s;
 }
 
 .review__name:after {
