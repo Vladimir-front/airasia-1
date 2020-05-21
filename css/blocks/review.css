@@ -60,11 +60,21 @@
   overflow: hidden;
   border-radius: 50%;
   margin-right: 23px;
+  flex-shrink: 0;
+}
+
+.review__tags {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: -10px;
 }
 
 .review__tag {
   display: flex;
   align-items: flex-start;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 
 .review__content-text {

@@ -55,10 +55,10 @@
 .contact__drop::before {
   content: "";
   display: block;
-  height: 100px;
+  height: 23px;
   left: 0;
   right: 0;
-  top: -100px;
+  bottom: 100%;
   position: absolute;
 }
 

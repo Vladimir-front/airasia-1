@@ -18,6 +18,11 @@
   background: #ffffff;
   padding: 22px 30px;
   color: #1a1b1e;
+  border: 1px solid transparent;
+}
+
+.form-field__input:focus, .form-field__input:hover {
+  border: 1px solid #666666;
 }
 
 .form-field__input::placeholder {
@@ -74,5 +79,10 @@
 
 .form-field__btn-black {
   margin-right: 23px;
+  outline: none;
+}
+
+.form-field__btn-red {
+  outline: none;
 }
 

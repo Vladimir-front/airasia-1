@@ -4,6 +4,8 @@
   align-items: center;
   background: url("../../images/bg/middleline.jpg");
   min-height: 360px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container__banner {
